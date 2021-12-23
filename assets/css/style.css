@@ -1,0 +1,87 @@
+/* Global style */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Main body area */
+body {
+    background-color: #dde9eb;
+    font-family: 'Lucida Sans', sans-serif; 
+    font-size: 15px;
+    line-height: 1;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    color: pink;
+    resize: none;
+    border-left: 1px solid black;
+    border-right: 1px;
+    padding: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: bisque;
+    color: rgb(11, 2, 24);
+    padding-bottom: 1px;
+    margin: 5px;
+    border-radius: 0;
+    border-bottom: 5px solid #243757;
+}
+
+.timeblock {
+    text-align: center;
+    border-radius: 10px;
+    border: solid;
+    padding: 12px;
+}
+
+.row {
+    height: 60px;
+    border-top: 2px solid grey;
+}
+
+.hour {
+    background-color: rgb(157, 220, 223);
+    color: grey;
+    border-top: 2px dotted grey;
+    border-bottom: 2px solid grey;
+}
+
+.timeslot {
+    border-radius: 5px; 
+    border: 2px dotted #E0E0E0;
+}
+
+/* Button styling */
+.saveBtn {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #7c8ca6;
+    color: whitesmoke;
+}
+
+.saveBtn i:hover {
+    font-size: 12px;
+    transition: all 0.2s;
+}
+/* Set past, present, future status by color */
+.past {
+    background-color: #5c696b;
+    color: whitesmoke;
+}
+
+.present {
+    background-color: #f0322b;
+    color: whitesmoke;
+}
+
+.future {
+    background-color: #16f555;
+    color: whitesmoke;
+}
